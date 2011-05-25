@@ -1,4 +1,6 @@
 <?php
+namespace Twilio;
+
     /*
     Copyright (c) 2009-2010 Twilio, Inc.
 
@@ -28,11 +30,6 @@
     
     // Twilio REST Helpers
     // ========================================================================
-    
-    // ensure Curl is installed
-    if(!extension_loaded("curl"))
-        throw(new Exception(
-            "Curl extension is required for TwilioRestClient to work"));
     
     /* 
      * TwilioRestResponse holds all the REST response data 
